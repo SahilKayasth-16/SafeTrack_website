@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resource</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6c63ff;
+    z-index: 2;
+}
+header h2 {
+    color: #fff;
+}
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-right: 40px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+table {
+    width: 70%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #6c63ff;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+tr:hover {
+    background-color: #eee;
+}
+h3 {
+    margin: 0;
+    color: white;
+}
+th[colspan="2"] {
+    background-color: #6c63ff;
+    font-size: 20px;
+    padding: 16px;
+}
+footer {
+    width: 100%;
+    height: 40px;
+    color: #6c63ff;
+    text-align: center;
+}
+/* Tablets (width between 600px and 900px) */
+@media screen and (max-width: 900px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px 20px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 15px;
+        padding-right: 0;
+        margin-top: 10px;
+    }
+
+    table {
+        width: 90%;
+        font-size: 0.95em;
+    }
+
+    th[colspan="2"] h3 {
+        font-size: 1.2em;
+    }
+
+    td a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* Phones (width up to 600px) */
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 15px;
+    }
+
+    header h2 {
+        font-size: 1.2em;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    .nav-links a {
+        font-size: 0.9em;
+    }
+
+    table {
+        width: 95%;
+        font-size: 0.85em;
+    }
+
+    th[colspan="2"] h3 {
+        font-size: 1.1em;
+    }
+
+    td a {
+        display: inline-block;
+        margin: 3px 2px;
+        font-size: 0.85em;
+    }
+
+    img {
+        width: 90%;
+        height: auto;
+    }
+
+    footer h4 {
+        font-size: 0.9em;
+        padding: 10px 0;
+    }
+}
+
+</style>
+<body>
+    <div class="head">
+        <header>
+            <h2>Safe Track</h2>
+            <div class="nav-links">
+                <a href="INDEX.html">About</a>
+                <a href="INDEX.html">Feature</a>
+                <a href="resource.html">Resource</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </header>
+    </div><br><br><br><br>
+    <table border="1" style="text-align: center;">
+        <tr>
+            <th colspan="2"><h3>Helpline Numbers</h3></th>
+        </tr>
+        <tr>
+            <td>National Woman Helpline</td>
+            <td>
+                <a href="tel: +91181" style="color: #333;">181,</a>
+                <a href="tel: +911091" style="color: #333;">1091</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Andaman & Nicobar Islands</td>
+            <td> 
+                <a href="tel: +911144" style="color: #333;">1144,</a>
+                <a href="tel: +9118003451144" style="color: #333;"> 18003451144</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Andhra Pradesh</td>
+            <td> 
+                <a href="tel: +91181" style="color: #333;">181,</a>
+                <a href="tel: +910402783508" style="color: #333;"> 040-27853508,</a>
+                <a href="tel: +9104023320539" style="color: #333"> 040-23320539</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Arunachal Pradesh</td>
+            <td> 
+                <a href="tel: +91181" style="color: #333;">181</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Assam</td>
+            <td> 
+                <a href="tel: +91100" style="color: #333;">100</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Bihar</td>
+            <td> 
+                <a href="tel: +91181" style="color: #333;">181,</a>
+                <a href="tel: +9118003456247" style="color: #333;"> 18003456247,</a>
+                <a href="tel: +9106122320047" style="color: #333"> 0612-2320047</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Chnadigarh</td>
+            <td> 
+                <a href="tel: +91181" style="color: #333;">181,</a>
+                <a href="tel: +91100" style="color: #333;"> 100,</a>
+                <a href="tel: +911091" style="color: #333"> 1091,</a>
+                <a href="tel: +9107122741174" style="color: #333"> 0712-2741174</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Chhatisgarh</td>
+            <td> 
+                <a href="tel: +91181" style="color: #333;">181</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Dadra and Ngar Haveli</td>
+            <td> 
+                <a href="tel: +9102602633001" style="color: #333;">0260-2633001,</a>
+                <a href="tel: +91100" style="color: #333;"> 100</a>
+            </td>
+        </tr>
+            <td>Daman and Diu</td>
+            <td> 
+                <a href="tel: +91181" style="color: #333;">181,</a>
+                <a href="tel: +91100" style="color: #333;"> 100</a>
+            </td>
+        <tr>
+            <td>NCT of Delhi</td>
+            <td> 
+                <a href="tel: +91181" style="color: #333;">181,</a>
+                <a href="tel: +91100" style="color: #333;"> 100,</a>
+                <a href="tel: +911091" style="color: #333"> 1091,</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Goa</td>
+            <td>
+                <a href="tel: +911091" style="color: #333"> 1091,</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Gujarat</td>
+            <td> 
+                <a href="tel: +91181" style="color: #333;">181,</a>
+                <a href="tel: +911091" style="color: #333"> 1091,</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Haryana</td>
+            <td> 
+                <a href="tel: +91181" style="color: #333;">181,</a>
+                <a href="tel: +911091" style="color: #333;"> 1091,</a>
+                <a href="tel: +9101242335100" style="color: #333"> 0124-2335100,</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Himachal Pradesh</td>
+            <td> 
+                <a href="tel: +91100" style="color: #333;"> 100</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Jammu and Kashmir</td>
+            <td> 
+                <a href="tel: +91100" style="color: #333;"> 100,</a>
+                <a href="tel: +911091" style="color: #333;"> 1091</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Jharkhand</td>
+            <td> 
+                <a href="tel: +91181" style="color: #333;">181,</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Karnataka</td>
+            <td> 
+                <a href="tel: +91100" style="color: #333;"> 100,</a>
+                <a href="tel: +911091" style="color: #333"> 1091,</a>
+                <a href="tel: +9108212418100" style="color: #333"> 0821-2418100</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Kerala</td>
+            <td> 
+                <a href="tel: +91181" style="color: #333;">181,</a>
+                <a href="tel: +911091" style="color: #333"> 1091,</a>
+                <a href="tel: +919995399953" style="color: #333"> 9995399953</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Lakshadweep</td>
+            <td> 
+                <a href="tel: +91100" style="color: #333;"> 100</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Madhya Pradesh</td>
+            <td> 
+                <a href="tel: +91181" style="color: #333;">181,</a>
+                <a href="tel: +911090" style="color: #333"> 1090</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Maharashtra</td>
+            <td> 
+                <a href="tel: +91181" style="color: #333;">181,</a>
+                <a href="tel: +91103" style="color: #333;"> 103,</a>
+                <a href="tel: +911091" style="color: #333"> 1091,</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Manipur</td>
+            <td> 
+                <a href="tel: +91100" style="color: #333;"> 100</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Meghalaya</td>
+            <td> 
+                <a href="tel: +91181" style="color: #333;">181,</a>
+                <a href="tel: +91100" style="color: #333;"> 100</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Mizoram</td>
+            <td> 
+                <a href="tel: +91181" style="color: #333;">181,</a>
+                <a href="tel: +91100" style="color: #333;"> 100</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Nagaland</td>
+            <td> 
+                <a href="tel: +91181" style="color: #333;">181,</a>
+                <a href="tel: +91100" style="color: #333;"> 100</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Odisha</td>
+            <td> 
+                <a href="tel: +91181" style="color: #333;">181,</a>
+                <a href="tel: +911091" style="color: #333"> 1091,</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Puducherry</td>
+            <td> 
+                <a href="tel: +91181" style="color: #333;">181,</a>
+                <a href="tel: +911091" style="color: #333"> 1091,</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Punjab</td>
+            <td> 
+                <a href="tel: +91181" style="color: #333;">181,</a>
+                <a href="tel: +911043" style="color: #333;"> 1043,</a>
+                <a href="tel: +91109" style="color: #333"> 109,</a>
+                <a href="tel: +919871101091" style="color: #333"> 9871101091</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Rajasthan</td>
+            <td> 
+                <a href="tel: +911091" style="color: #333"> 1091,</a>
+                <a href="tel: +9118001200020" style="color: #333"> 1800-1200020</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Sikkim</td>
+            <td> 
+                <a href="tel: +91181" style="color: #333;">181</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Tamil Nadu</td>
+            <td> 
+                <a href="tel: +911091" style="color: #333"> 1091,</a>
+                <a href="tel: +9107122741174" style="color: #333"> 044-285952750</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Telengana</td>
+            <td> 
+                <a href="tel: +911091" style="color: #333"> 1091,</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Tripura</td>
+            <td> 
+                <a href="tel: +911091" style="color: #333"> 1091</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Uttar Pradesh</td>
+            <td> 
+                <a href="tel: +91181" style="color: #333;">181,</a>
+                <a href="tel: +911090" style="color: #333"> 1090</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Uttarakhand</td>
+            <td> 
+                <a href="tel: +91181" style="color: #333;">181,</a>
+                <a href="tel: +911091" style="color: #333"> 1091</a>
+            </td>
+        </tr>
+        <tr>
+            <td>West Bengal</td>
+            <td> 
+                <a href="tel: +91181" style="color: #333;">181,</a>
+                <a href="tel: +911091" style="color: #333"> 1091</a>
+            </td>
+        </tr>
+    </table><br><br><br>
+    <table border="1" style="text-align: center;">
+        <tr>
+            <th colspan="2">Websites</th>
+        </tr>
+        <tr>
+            <td>Woman Safety Division-Ministry of Home Affairs</td>
+            <td>
+                <a href="https://www.mha.gov.in/en/divisionofmha/women-safety-division" target="_blank">
+                    <img src="../images/i1.png" alt="Couldn't load image" height="180" width="250">
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>National Commission for Women</td>
+            <td>
+                <a href="https://www.ncw.gov.in/" target="_blank">
+                    <img src="../images/i2.png" alt="Couldn't load image" height="180" width="250">
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>Red Dot Foundation</td>
+            <td>
+                <a href="https://reddotfoundation.in/" target="_blank">
+                    <img src="../images/i3.png" alt="Couldn't load image" height="180" width="250">
+                </a>
+            </td>
+        </tr>
+    </table>
+    <footer>
+        <h4><i class="fa-regular fa-copyright"></i> SafeTrack. All rights reserved</h4>
+    </footer>
+</body>
+</html>

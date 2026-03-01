@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6c63ff;
+    z-index: 2;
+}
+header h2 {
+    color: #fff;
+}
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-right: 40px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+fieldset {
+    border: 2px solid #6c63ff;
+    padding: 20px;
+    border-radius: 10px;
+}
+legend h2 {
+    color: #6c63ff;
+    margin: 0;
+}
+label {
+    font-weight: bold;
+    color: #333;
+    }
+input[type="text"], input[type="number"], textarea {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+}
+input[type="text"]:hover, input[type="number"]:hover, textarea:hover {
+    border-color: #6c63ff;
+}
+button {
+    background-color: #6c63ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+    margin: 20px 0 0 50%;
+}
+button:hover {
+    background-color: #554dde;
+    transform: scale(1.05);
+}
+b {
+    text-align: center;
+    color: #6c63ff;
+    font-size: 20px;
+    justify-content: center;
+}
+footer {
+    width: 100%;
+    height: 40px;
+    color: #6c63ff;
+    text-align: center;
+}.contact {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+.contact h3 {
+    color: #6c63ff;
+    margin-bottom: 15px;
+}
+.contact a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    margin: 10px 0;
+    transition: color 0.3s ease;
+}
+.contact a i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #6c63ff;
+    transition: transform 0.3s ease;
+}
+.contact a h4 {
+    margin: 0;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+.contact a:hover i {
+    transform: scale(1.2);
+    color: #4e47d3;
+}
+.contact a:hover h4 {
+    color: #6c63ff;
+}
+/* For tablets (portrait and landscape) */
+@media (max-width: 1024px) {
+    header {
+        padding: 15px 40px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        gap: 15px;
+        padding: 10px 0 0 0;
+    }
+
+    button {
+        margin-left: 0;
+    }
+
+    .container {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    input[type="text"], input[type="number"], textarea {
+        width: 100%;
+    }
+}
+
+/* For mobile devices (phones) */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 20px;
+    }
+
+    header h2 {
+        font-size: 24px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        padding-right: 0;
+    }
+
+    .container {
+        width: 90%;
+        margin: 10px auto;
+        padding: 15px;
+    }
+
+    fieldset {
+        padding: 15px;
+    }
+
+    legend h2 {
+        font-size: 20px;
+    }
+
+    label {
+        font-size: 16px;
+    }
+
+    input[type="text"], input[type="number"], textarea {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    button {
+        width: 100%;
+        margin-left: 0;
+        font-size: 16px;
+    }
+
+    .contact a {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contact a i {
+        font-size: 20px;
+    }
+
+    .contact a h4 {
+        font-size: 16px;
+    }
+
+    footer h4 {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+</style>
+<body>
+    <div class="head">
+        <header>
+            <h2>Safe Track</h2>
+            <div class="nav-links">
+                <a href="INDEX.html">About</a>
+                <a href="INDEX.html">Feature</a>
+                <a href="resource.html">Resource</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </header>
+    </div><br><br><br><br>
+    <div class="container">
+        <form action="../../backend/connect.php" method="post" id="FeedbackForm">
+          <fieldset id="head">
+            <legend><h2>Feedback Form</h2></legend>
+            
+            <label for="firstname" class="fname">First name:</label>
+            <input type="text" id="firstname" name="First_name" placeholder="Enter your first name"><br><br>
+            
+            <label for="lastname" class="lname">Surname:</label>
+            <input type="text" id="lastname" name="Last_name" placeholder="Enter your surname"><br><br>
+            
+            <label for="contact" class="contact">Contact:</label><br>
+            <input type="text" id="contact" name="Contact" placeholder="Enter your contact number"><br><br>
+            
+            <label for="email" class="email">Email-ID:</label>
+            <input type="text" id="email" name="Email_ID" placeholder="Enter your email ID"><br><br>
+            
+            <label for="feedback" class="feedback">Feedback:</label>
+            <textarea name="Feedback" id="feedback" rows="6" cols="10" placeholder="Provide your feedback here"></textarea>
+            
+            <button type="submit">Submit</button><br>
+            <b class="error" id="thanks"></b>
+          </fieldset>
+        </form>
+      </div><br><br><br><br>
+
+      <div class="contact">
+        <h3>Contact us:</h3>
+        <a href="tel: +91 8320727731"><i class="fa-solid fa-square-phone"></i><h4>+91 83207 27731</h4></a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sahilk16.sk@gmail.com" target="_blank"><i class="fa-solid fa-square-envelope"></i><h4>sahilk16.sk@gmail.com</h4></a>
+      </div>
+
+      <footer>
+        <h4><i class="fa-regular fa-copyright"></i> SafeTrack. All rights reserved</h4>
+    </footer>
+</body>
+<script>
+    document.getElementById('FeedbackForm').addEventListener("submit", function(event) {
+        const firstname = document.getElementById('firstname').value.trim();
+        const lastname = document.getElementById('lastname').value.trim();
+        const contact = document.getElementById('contact').value.trim();
+        const email = document.getElementById('email').value.trim();
+        const feedback = document.getElementById('feedback').value.trim();
+        const errorMsg = document.getElementById('thanks');
+
+        if (!firstname || !lastname || !contact || !email || !feedback) {
+            errorMsg.textContent = "Please fill all the fields";
+            event.preventDefault();
+        } else {
+            errorMsg.textContent = "Thank you for your feedback!";
+        }
+    });
+</script>
+</html>

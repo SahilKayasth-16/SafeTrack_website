@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Contacts</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6c63ff;
+    z-index: 2;
+}
+header h2 {
+    color: #fff;
+}
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-right: 40px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #6c63ff;
+}
+table {
+    width: 70%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    color: #6c63ff;
+}
+footer {
+    width: 100%;
+    height: 40px;
+    color: #6c63ff;
+    text-align: center;
+}
+/* Tablets (width 600px to 900px) */
+@media screen and (max-width: 900px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .nav-links {
+        padding-right: 0;
+        gap: 15px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    table {
+        width: 90%;
+    }
+
+    table td {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    table img {
+        width: 90%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
+/* Phones (width less than 600px) */
+@media screen and (max-width: 600px) {
+    header {
+        padding: 15px;
+    }
+
+    header h2 {
+        font-size: 1.2em;
+    }
+
+    .nav-links {
+        gap: 10px;
+    }
+
+    a {
+        font-size: 0.9em;
+    }
+
+    h1 {
+        font-size: 1.3em;
+    }
+
+    table td h2 {
+        font-size: 1em;
+    }
+
+    footer h4 {
+        font-size: 0.9em;
+        padding: 10px;
+    }
+}
+
+</style>
+<body>
+    <div class="head">
+        <header>
+            <h2>Safe Track</h2>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#feature">Feature</a>
+                <a href="resource.html">Resource</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </header>
+    </div><br><br><br><br><br>
+    <h1>Emergency Contacts</h1>
+    <table>
+        <tr>
+            <td>
+                <img src="../images/common.jpg" alt="There is an image" height="400" width="210">
+            </td>
+            <td><h2>Step-1 Go to app's home screen and click on live track</h2></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <img src="../images/f4-1.jpg" alt="There is an image" height="400" width="210">
+            </td>
+            <td><h2>Step-2 Click on Favorite Contacts. From here, you can add your contacts as an emergency contacts.</h2></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <img src="../images/f4-2.jpg" alt="There is an image" height="400" width="210">
+            </td>
+            <td><h2>You can remove contact by clicking on delete button</h2></td>
+        </tr>
+    </table><br><br><br>
+    <footer>
+        <h4><i class="fa-regular fa-copyright"></i> SafeTrack. All rights reserved</h4>
+    </footer>
+</body>
+</html>
